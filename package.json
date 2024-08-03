@@ -1,5 +1,10 @@
 {
-  "author": "",
+  "author": "Maurício Piber Fão <mauriciopiber@gmail.com>",
+  "dependencies": {
+    "@eslint/js": "^9.8.0",
+    "globals": "^15.9.0",
+    "typescript-eslint": "^8.0.0"
+  },
   "description": "",
   "license": "ISC",
   "main": "index.mjs",
@@ -7,10 +12,5 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "version": "1.0.0",
-  "dependencies": {
-    "@eslint/js": "^9.8.0",
-    "globals": "^15.9.0",
-    "typescript-eslint": "^8.0.0"
-  }
+  "version": "1.0.0"
 }
