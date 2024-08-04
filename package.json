@@ -10,7 +10,9 @@
   },
   "description": "",
   "devDependencies": {
-    "prettier": "^3.3.3"
+    "@semantic-release/git": "^10.0.1",
+    "prettier": "^3.3.3",
+    "semantic-release": "^24.0.0"
   },
   "license": "ISC",
   "main": "index.mjs",
