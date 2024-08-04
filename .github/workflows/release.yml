@@ -1,0 +1,12 @@
+name: Release
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  release:
+    uses: mauriciopiber/workflows-config/.github/workflows/config-release.yml@main
+    secrets:
+      NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
